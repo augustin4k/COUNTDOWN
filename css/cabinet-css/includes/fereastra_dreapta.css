@@ -1,0 +1,169 @@
+#titlu_event {
+  color: #666870;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.calendarClass input[name=cantitate_repeat] {
+  text-align: right;
+}
+
+.calendarClass {
+  background: white;
+  box-shadow: 0 2px 11px 0 rgba(0,0,0,.16);
+  width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.calendarClass label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.calendarClass label p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.calendarClass input {
+  width: 240px;
+}
+
+.repeat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repeat select {
+  width: 110px;
+}
+
+.repeat input {
+  width: 110px;
+}
+
+.buton_calendar  {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ margin-top: 4px;
+}
+
+.buton_calendar button {
+ padding: 8px 12px;
+ margin: 8px 0 0;
+ width: 100px;
+ border-radius: 3px;
+ border: 1px solid;
+ border: 0;
+ color: white;
+ cursor: pointer;
+ transition: all 0.3s;
+}
+
+.ok{
+ background: rgba(97, 127, 222, 0.7);
+}
+
+.ok:hover{
+ background-color: rgba(97, 127, 222, 1);
+}
+
+.clear {
+ background: #eef0f6;
+}
+
+.clear:hover {
+ background: #dee3f4;
+}
+
+.clear b {
+ color: black;
+}
+
+.card {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.card ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul li {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card ul li:hover {
+  transform: scale(1.1);
+}
+
+#demo {
+  color: #666870;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.select_color {
+  border: 3px solid black;
+}
+
+.calendarClass select, .calendarClass input {
+  outline: none;
+  padding: 2px 4px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #617fde;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}

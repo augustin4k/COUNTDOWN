@@ -1,0 +1,128 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+h1, p, h2, a, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+	font-weight: bold;
+}
+
+.content {
+	margin-left: 6.95%;
+	margin-right: 6.95%;
+}
+
+.prim-art-home {
+	line-height: 0.8;
+}
+
+article h1 {
+	font-size: 40px;
+}
+
+.first_button {
+	width: 200px;
+	height: 50px;
+	background-color: rgba(97, 127, 222, 0.7);
+	border: none;
+	text-align: center;
+	border-radius: 8px;
+	font-size: 20px;
+	color: white;
+	vertical-align: center;
+	cursor: pointer;
+}
+
+.first_button:hover {
+	background: rgba(97, 127, 222, 1);
+}
+
+article h2 {
+	font-size: 28px;
+}
+
+article p {
+	font-size: 24px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 710px) {
+
+  .doi-art-home {
+		text-align: left;
+		margin-top: 10%;
+		margin-right: 10%;
+	}
+
+	.img_responsive {
+		display: none;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	aside {
+		display: flex;
+		align-items: center;
+	}
+
+	.partea_stanga {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.content {
+	min-height: calc(100vh - 112.5px);
+}
+
+@media screen and (max-width: 710px) {
+	.img_n_responsive img {
+		display: none;
+	}
+
+	.prim-art-home {
+		margin-top: 10vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		line-height: 15vw;
+	}
+
+	.prim-art-home h1 {
+		margin: 0;
+		font-size: 10vw;
+	}
+
+	.doi-art-home {
+		background: #f9f9f9;
+	}
+
+	.doi-art-home h2,
+	.doi-art-home p {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+	.first_button {
+		width: 40vw;
+		height: 10vw;
+		font-size: 4vw;
+	}
+
+	.img_responsive {
+		margin: 10vw 0;
+	}
+}

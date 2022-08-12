@@ -1,0 +1,75 @@
+.icon_la_logare {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: none;
+}
+
+.icon_la_logare:hover {
+  border-bottom: 2px solid rgba(97, 127, 222, 1);
+}
+
+input {
+  border: none;
+}
+
+.under_button .p {
+  color : black;
+}
+
+button {
+    float: center;
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border:0;
+    background: rgba(97, 127, 222, 0.7);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgba(97, 127, 222, 1);
+    color: #fff;
+}
+
+.under_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #617fde;
+}
+
+.under_button a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #617fde;
+}
+
+.under_button p {
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+
+.msg {
+  border-radius: 3px;
+  border: 2px solid;
+  text-align: center;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

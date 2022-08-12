@@ -1,0 +1,155 @@
+@media screen and (min-width: 750px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .display_prim_art {
+    display: flex;
+    margin-bottom: 1.3vw;
+  }
+
+  .art-first-dn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42vw;
+  }
+
+  section aside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 58vw;
+    /* margin-top: 4vw; */
+  }
+
+  .art-first-dn h2 {
+    font-weight: 500;
+  }
+
+  .art-first-dn p {
+    font-size: 1.53vw;
+  }
+
+  .art-sec-dn  p {
+    line-height: 1.5;
+    font-size: 1.8vw;
+  }
+}
+
+#despre_noi_tab {
+  border-bottom: 2px solid !important;
+  border-color: rgba(97, 127, 222, 1) !important;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  /* overflow: auto; */
+  overflow-x: hidden;
+}
+
+h1, p, h2, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+.p_ajutator {
+  display: none;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+.p_logo {
+  color: #1EB56C;
+}
+
+section .display {
+  margin-bottom: 5.5%;
+}
+
+section aside {
+  width: 58%;
+  margin-right: 6.95%;
+}
+
+.art-first-dn, aside {
+  margin-top: 7vw;
+}
+
+
+.art-first-dn p {
+  line-height: 2;
+  margin-top: 2vw;
+}
+
+.art-first-dn h2 {
+  line-height: 6vw;
+  margin: 0;
+}
+
+.art-sec-dn h2, .art-sec-dn p, .art-sec-dn img{
+  margin-left: 6.95%;
+  margin-right: 6.95%;
+}
+
+.art-sec-dn img  {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  width: 86.1vw;
+  /* width: 93.05vw; */
+}
+
+
+.art-first-dn  {
+  margin-left: 6.95%;
+}
+
+.art-sec-dn  {
+  text-align: justify;
+  background: rgba(192,192,192,0.1);
+
+}
+
+ @media screen and (max-width: 750px) {
+   img {
+     width: 93.05vw;
+     margin-right: 6.95%;
+     margin-left: 6.95%;
+   }
+   section h1, section p, section h2 {
+     text-align: center;
+     line-height: 2;
+     margin: 0;
+   }
+   section p {
+     font-size: 23px;
+   }
+   section h2 {
+     font-size: 40px;
+   }
+   .p_n_responsive {
+     display: none;
+   }
+   .p_ajutator {
+     display: block;
+   }
+   section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .art-first-dn h2 {
+     line-height: 50px;
+     font-weight: 500;
+   }
+   .art-first-dn {
+     margin: 2% 6.95%;
+   }
+ }

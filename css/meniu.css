@@ -1,0 +1,75 @@
+@media screen and (max-width: 1125px) {
+
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .topnav ul a, .topnav .icon {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav ul a{
+    transition: all 0.3s;
+    line-height: 40px;
+    padding-left: 57px;
+    margin: 0 6.95%;
+    border-radius: none;
+  }
+
+  .topnav ul {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+  .topnav a.icon {
+    background: #90a5e8;
+    display: block;
+    position: absolute;
+    right: 6.95%;
+    top: 9px;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+
+  .logo a {
+    padding: 0;
+  }
+
+  .topnav ul a {
+    border-bottom: 1px grey solid;
+  }
+
+  .topnav ul a:hover {
+    padding-left: 67px !important;
+    background: white;
+    border-radius: 0;
+    color: black;
+  }
+
+  a.icon:hover {
+    background: #617fde;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    color: white;
+    border-radius: 0px;
+    border: none;
+  }
+
+}

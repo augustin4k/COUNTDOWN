@@ -1,0 +1,39 @@
+button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    background: white;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #78788c;
+    color: #fff;
+}
+
+label {
+  color: #5a5a6e;
+  margin-top: 10px;
+}
+
+.msg {
+  border-radius: 3px;
+  border: 2px solid;
+  text-align: center;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+@media screen and (max-height: 660px) {
+  .form_logo {
+    position: absolute;
+    top: 0;
+  }
+}
