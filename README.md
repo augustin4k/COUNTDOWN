@@ -17,7 +17,7 @@ The project is built using pure JavaScript, jQuery, CSS, and HTML5 as frontend t
 
 To run COUNTDOWN locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/countdown.git](https://github.com/augustin4k/COUNTDOWN.git`
+1. Clone the repository: `git clone https://github.com/augustin4k/COUNTDOWN.git`
 2. Set up the database by importing the SQL file included in the project.
 3. Configure the database connection in the backend configuration file.
 4. Start the local server for PHP (e.g., using XAMPP or WAMP).
